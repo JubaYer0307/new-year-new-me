@@ -1,0 +1,377 @@
+/* banner start*/
+.thinks{
+
+    position: absolute;
+    width: 1440px;
+    height: 810px;
+    left: 0px;
+    top: 0px;
+
+    background: url(./images/banner/banner3.png);
+}
+
+.thinks h1{
+
+    position: absolute;
+    width: 525px;
+    height: 230px;
+    padding-left: 845px;
+    padding-top: 215px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.thinks p{
+
+    position: absolute;
+    width: 500px;
+    height: 80px;
+    left: 880px;
+    top: 470px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.thinks button{
+
+    position: absolute;
+    width: 160px;
+    height: 65px;
+    left: 1210px;
+    top: 580px;
+
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+
+    color: #005FAC;
+}
+/* banner finish */
+/* content start */
+.my-fails{
+
+    position: absolute;
+    width: 160px;
+    height: 65px;
+    left: 200px;
+    top: 850px;
+}
+
+.my-fails img{
+
+    position: absolute;
+    width: 500px;
+    height: 600px;
+
+    
+
+
+}
+
+.my-content{
+
+        position: absolute;
+    width: 415px;
+    height: 400px;
+    left: 860px;
+    top: 1000px;
+}
+
+.my-content h1{
+
+   
+    
+    width: 290px;
+    height: 95px;
+    
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+
+
+color: #151414;
+}
+
+.my-content p,li{
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #444343;
+    line-height: 25px;
+
+}
+li {
+    list-style: none;
+  }
+  
+ li:before {
+    content: '✓';
+    color: #00ac17;
+   
+    
+
+  }
+
+  /* content finish */
+
+  /* plans start */
+
+.plans{
+
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    left: 600px;
+    top: 1550px;
+   
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px; 
+    text-align: center;
+    
+    color: #151414;
+}
+
+.icon {
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    width: 1140px;
+    height: 200px;
+    left: 230px;
+    top: 1700px;
+ 
+}
+/* plan finish */
+
+/* search box */
+
+.search{
+
+    display: flex;
+    position: relative;
+    height: 60px;
+    left: 400px;
+    top: 1950px;
+    
+
+}
+.search input{
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+    border: 3px solid rgb(73, 73, 73);
+    border-right-style:none ;
+
+    width: 400px;
+    background: linear-gradient(90deg, rgb(251, 253, 253) 0%,#b0d0eb 50%, #005FAC 100%);
+}
+.search button{
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #005FAC;
+    
+    border: 3px solid rgb(73, 73, 73);
+    
+    color: #f7f8f8;
+    font-weight: 700;
+    width: 100px;
+}
+.search button:hover{
+
+    color: #024c88;
+    background-color: #95c3ff;
+}
+
+.search input::placeholder{
+
+    color: #004379;
+    font-weight: 700;
+}
+
+/* search box finish */
+
+/* second banner start */
+.positive{
+
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 110px;
+    top: 2100px;
+    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(./images/watch.png);
+    border-radius: 8px;
+}
+
+.positive h2{
+
+    position: relative;
+    width: 460px;
+    height: 95px;
+    padding-top: 50px;
+    padding-left: 20px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+
+    color: #FFFFFF;
+}
+
+.positive button{
+    margin-left: 20px;
+    position: absolute;
+    width: 160px;
+    height: 50px;
+
+    color: #005FAC;
+    border-radius: 5px;
+    border-style: none;
+
+}
+/* second banner finish */
+
+/* footer start */
+footer{
+    display: flex;
+        position: absolute;
+        width: 1440px;
+    height: 400px;
+    left: 0px;
+    top: 2500px;
+
+    background: #151414;
+}
+
+footer h1{
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 20px;
+
+    color: #F8F8F8;
+}
+
+footer p{
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+
+
+footer .contact{
+    padding-top: 70px;
+    padding-left: 120px;
+
+    position: absolute;
+    width: 400px;
+    height: 200px;
+  
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    
+    line-height: 20px;
+    text-align: left;
+
+}
+footer .subscribe{
+
+
+    position: absolute;
+    padding-top: 70px;
+    line-height: 40px;
+    
+    width: 200px;
+    height: 250px;
+    left: 900px;
+
+}
+
+.subscribe h1{
+
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+
+    line-height: 30px;
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+
+.subscribe input{
+
+
+    width: 325px;
+    height: 65px;
+    border-radius: 10px;
+    color: #f7f8f8;
+    border: 1px solid #f7f8f8;
+    background-color:  #151414;
+    margin-bottom: 10px;
+
+}
+
+.subscribe input::placeholder{
+
+    color: #f7f8f8;
+    font-size: 20px;
+}
+
+.subscribe button{
+
+    
+    width: 160px;
+    height: 65px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #005FAC;
+    color: #f7f8f8;
+}
+/* footer finish */
